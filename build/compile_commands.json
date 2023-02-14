@@ -1,0 +1,47 @@
+[
+ {
+  "directory": "/home/jake/src/ee491-lab03a-memory-scanner",
+  "arguments": [
+   "gcc",
+   "-g",
+   "-Wall",
+   "-I",
+   "./headers/",
+   "-c",
+   "-o",
+   "memscan.o",
+   "src/memscan.c"
+  ],
+  "file": "src/memscan.c"
+ },
+ {
+  "directory": "/home/jake/src/ee491-lab03a-memory-scanner",
+  "arguments": [
+   "gcc",
+   "-g",
+   "-Wall",
+   "-I",
+   "./headers/",
+   "-c",
+   "-o",
+   "parse-file.o",
+   "src/parse-file.c"
+  ],
+  "file": "src/parse-file.c"
+ },
+ {
+  "directory": "/home/jake/src/ee491-lab03a-memory-scanner",
+  "arguments": [
+   "gcc",
+   "-g",
+   "-Wall",
+   "-I",
+   "./headers/",
+   "-c",
+   "-o",
+   "bounded-memory-scan.o",
+   "src/bounded-memory-scan.c"
+  ],
+  "file": "src/bounded-memory-scan.c"
+ }
+]
